@@ -29,13 +29,13 @@ Some specific use cases of histograms are
 
 - In many Digital Image processing programs there is a histogram tool, which show you the distribution of the contrast / brightness of the pixels. 
 
-## Histogram Equalizing
+## Histogram Equalizing 🔥
 
 Histogram equalization is a method for contrast adjustment using the image's histogram.
 Basically, it is a computer image processing technique used to improve contrast in images. It accomplishes this by effectively spreading out the most frequent intensity values. When the useable data is represented by near contrast values, this approach generally boosts the global contrast of pictures. This enables locations with poor local contrast to gain a higher contrast.
 
 
-## Histogram Matching 
+## Histogram Matching 🔥
 
 Histogram matching is the transformation of an image so that its histogram matches a specified histogram. 
 In order to match the histogram of images A and B, we need to first equalize the histogram of both images. Then, we need to map each pixel of A to B using the equalized histograms. Then we modify each pixel of A based on that of B.
